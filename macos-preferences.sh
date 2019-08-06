@@ -55,12 +55,6 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# Use scroll gesture with the Ctrl (^) modifier key to zoom
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
-# Follow the keyboard focus while zoomed in
-defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
-
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
@@ -225,16 +219,13 @@ sudo pmset -b lessbright 1
 # Automatically reduce brightness before display goes to sleep
 sudo pmset -b halfdim 1
 
-# Restart automatically if the computer freezes
-sudo pmset -b panicrestart 15
-
 # Power Adapter
 
 # Computer sleep: 30 min
 sudo pmset -c sleep 30
 
 # Display sleep: 10 min
-sudo mset -c displaysleep 10
+sudo pmset -c displaysleep 10
 
 # Put the hard disk(s) to sleep when possible: 10 min
 sudo pmset -c disksleep 10
@@ -247,9 +238,6 @@ sudo pmset -c halfdim 1
 
 # Start up automatically after a power failure
 sudo pmset -c autorestart 1
-
-# Restart automatically if the computer freezes
-sudo pmset -c panicrestart 15
 
 ###############################################################################
 # Kill affected applications                                                  #
