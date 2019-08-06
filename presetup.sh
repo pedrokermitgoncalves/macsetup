@@ -19,6 +19,7 @@ brew install node
 brew install nvm
 brew install yarn
 brew install mas
+brew install z
 
 # Fonts #
 brew tap caskroom/fonts
