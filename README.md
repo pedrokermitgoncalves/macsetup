@@ -1,0 +1,2 @@
+# macsetup
+Personal Mac setup
