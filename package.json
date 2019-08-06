@@ -1,0 +1,10 @@
+{
+  "name": "macsetup",
+  "version": "0.0.0",
+  "description": "Personal mac setup files inspired on okonet dotfiles repository",
+  "main": "index.sh",
+  "repository": "https://github.com/pedrokermitgoncalves/macsetup",
+  "author": "Pedro \"Kermit\" Gonçalves <pribeiro.goncalves@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
