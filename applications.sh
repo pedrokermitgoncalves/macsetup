@@ -20,3 +20,16 @@ mas install 462058435 # Excel
 
 # upgrade outdated apps
 mas upgrade
+
+# work apps
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install slack
+brew cask install visual-studio-code
+brew cask install zeplin
+brew cask install spectacle
+
+# personal apps
+brew cask install google-backup-and-sync
+brew cask install vlc
+brew cask install plex-media-server
