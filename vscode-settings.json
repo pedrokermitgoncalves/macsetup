@@ -1,0 +1,22 @@
+{
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnSaveTimeout": 1000,
+  "editor.fontWeight": "500",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "files.autoSaveDelay": 500,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "window.title": "${rootName}${separator}${activeFolderMedium}/${activeEditorShort}",
+  "window.newWindowDimensions": "maximized",
+  "vetur.completion.tagCasing": "initial",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "tslint.configFile": "tslint.json",
+  "tslint.exclude": "node_modules/**/*.*",
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.tabSize": 2
+}
