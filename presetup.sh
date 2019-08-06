@@ -13,6 +13,7 @@ brew update
 brew upgrade
 
 # TOOLS #
+brew install cask
 brew install git
 brew install node
 brew install nvm
@@ -34,6 +35,7 @@ command -v nvm
 command -v npm
 command -v yarn
 command -v mas
+command -v brew
 
 # Remove outdated versions from the cellar
 brew cleanup
