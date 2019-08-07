@@ -34,3 +34,8 @@ brew cask install google-backup-and-sync
 brew cask install plex-media-server
 brew cask install spotify
 brew cask install vlc
+
+# ZOOM (With curl)
+wget https://zoom.us/client/latest/Zoom.pkg
+sudo installer -pkg Zoom.pkg -target /Applications
+rm Zoom.pkg

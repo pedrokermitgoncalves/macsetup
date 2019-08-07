@@ -10,6 +10,7 @@ code --install-extension naumovs.color-highlight
 code --install-extension octref.vetur
 code --install-extension PKief.material-icon-theme
 code --install-extension richie5um2.vscode-sort-json
+code --install-extension rubbersheep.gi
 code --install-extension unional.vscode-sort-package-json
 code --install-extension zhuangtongfa.Material-theme
 

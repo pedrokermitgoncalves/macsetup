@@ -20,6 +20,7 @@ brew install nvm
 brew install yarn
 brew install mas
 brew install z
+brew install wget
 
 # Fonts #
 brew tap caskroom/fonts
