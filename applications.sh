@@ -11,7 +11,6 @@ mas install 1460809171 # Airmail Zero
 mas install 425424353  # The Unarchiver
 mas install 497799835  # XCode
 mas install 732710998  # Enpass
-mas install 803453959  # Slack
 
 # install office apps
 # mas install 462054704 # Word
@@ -28,7 +27,7 @@ brew cask install slack
 brew cask install spectacle
 brew cask install visual-studio-code
 brew cask install zeplin
-brew cask install zoom
+
 
 # personal apps
 brew cask install google-backup-and-sync
