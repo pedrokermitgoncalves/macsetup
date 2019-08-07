@@ -1,6 +1,7 @@
 #!/bin/bash
 
 code --install-extension akamud.vscode-theme-onedark
+code --install-extension apollographql.vscode-apollo
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode

@@ -28,7 +28,6 @@ brew cask install spectacle
 brew cask install visual-studio-code
 brew cask install zeplin
 
-
 # personal apps
 brew cask install google-backup-and-sync
 brew cask install plex-media-server
