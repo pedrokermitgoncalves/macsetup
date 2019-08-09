@@ -7,7 +7,7 @@ mas signin pribeiro.goncalves@gmail.com
 
 # install apps
 mas install 1147396723 # WhatsApp desktop
-mas install 1460809171 # Airmail Zero
+# mas install 1460809171 # Airmail Zero
 mas install 425424353  # The Unarchiver
 mas install 497799835  # XCode
 mas install 732710998  # Enpass
