@@ -21,4 +21,4 @@ code --install-extension joelday.docthis
 
 
 # Settings
-vscode-settings.json > $HOME/Library/Application\ Support/Code/User/settings.json
+echo vscode-settings.json > $HOME/Library/Application\ Support/Code/User/settings.json
