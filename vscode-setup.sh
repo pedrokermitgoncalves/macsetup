@@ -17,6 +17,8 @@ code --install-extension sysoev.language-stylus
 code --install-extension unional.vscode-sort-package-json
 code --install-extension waderyan.gitblame
 code --install-extension zhuangtongfa.Material-theme
+code --install-extension joelday.docthis
+
 
 # Settings
 vscode-settings.json > $HOME/Library/Application\ Support/Code/User/settings.json
