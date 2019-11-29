@@ -18,7 +18,14 @@ code --install-extension unional.vscode-sort-package-json
 code --install-extension waderyan.gitblame
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension joelday.docthis
-
+code --install-extension wmaurer.change-case
+code --install-extension rubbersheep.gi
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension vincaslt.highlight-matching-tag
+code --install-extension zengxingxin.sort-js-object-keys
+code --install-extension shinnn.stylelint
+code --install-extension funkyremi.vscode-google-translate
+code --install-extension johnuphoff.vscode-styled-sort
 
 # Settings
 echo vscode-settings.json > $HOME/Library/Application\ Support/Code/User/settings.json
