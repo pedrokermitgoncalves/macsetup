@@ -17,7 +17,9 @@
     "other": true,
     "strings": true
   },
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
@@ -44,11 +46,16 @@
   "window.newWindowDimensions": "maximized",
   "window.title": "${rootName}${separator}${activeFolderMedium}/${activeEditorShort}",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "One Dark Pro Bold",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.defaultLocation": "bottom",
   "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": true
+  "workbench.settings.useSplitJSON": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.mode.active": "review",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
