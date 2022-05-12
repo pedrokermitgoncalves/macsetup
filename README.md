@@ -14,5 +14,4 @@ $ sh gitconfig.sh
 $ sh npm-packages.sh
 $ sh vscode-setup.sh
 $ sh zsh.sh
-$ sh repos.sh // Prozis
 ```

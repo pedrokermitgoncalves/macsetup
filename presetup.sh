@@ -4,7 +4,8 @@
 sudo -v
 
 # Homebrew Homebrew #
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 
 # Make sure we’re using the latest Homebrew
 brew update
@@ -21,14 +22,6 @@ brew install yarn
 brew install mas
 brew install z
 brew install wget
-
-# Fonts #
-brew tap caskroom/fonts
-brew cask install font-fira-mono
-brew cask install font-fira-mono-for-powerline
-brew cask install font-fira-sans
-brew cask install font-fira-sans-condensed
-brew cask install font-fira-code
 
 # Verify installation
 command -v git
