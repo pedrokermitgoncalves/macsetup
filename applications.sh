@@ -17,13 +17,14 @@ mas install 441258766  # magnet
 mas upgrade
 
 # work apps
-brew cask install google-chrome
-#brew cask install iterm2
-brew cask install hyper
-brew cask install slack
-brew cask install visual-studio-code
-#brew cask install miro
-#brew cask install trello
+brew install google-chrome --cask
+#brew install iterm2 --cask
+brew install hyper --cask
+brew install slack --cask
+brew install visual-studio-code --cask
+#brew install miro --cask
+#brew install trello --cask
+brew install figma --cask
 brew install atom
 
 # personal apps
