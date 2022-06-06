@@ -17,23 +17,25 @@ mas install 441258766  # magnet
 mas upgrade
 
 # work apps
-brew install google-chrome --cask
-#brew install iterm2 --cask
-brew install hyper --cask
-brew install slack --cask
-brew install visual-studio-code --cask
-#brew install miro --cask
-#brew install trello --cask
-brew install figma --cask
-brew install atom
+brew install --cask google-chrome
+brew install --cask hyper
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask miro
+#brew install --cask trello
+brew install --cask figma
+brew install --cask atom
+brew install --cask todoist
+brew install --cask shift
+brew install --cask grammarly
+brew install --cask notion
+brew install --cask zoom
+brew install --cask tunnelblick
+brew install --cask spotify
+
 
 # personal apps
 #brew cask install google-backup-and-sync
 #brew cask install plex-media-server#
-brew cask install spotify
 #brew cask install vlc
 
-# ZOOM (With curl)
-#wget https://zoom.us/client/latest/Zoom.pkg
-#sudo installer -pkg Zoom.pkg -target /Applications
-#rm Zoom.pkg
