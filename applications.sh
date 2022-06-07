@@ -30,6 +30,8 @@ brew install --cask notion
 brew install --cask zoom
 brew install --cask tunnelblick
 brew install --cask spotify
+brew install --cask spotify-now-playing
+brew install awscli
 
 
 # personal apps

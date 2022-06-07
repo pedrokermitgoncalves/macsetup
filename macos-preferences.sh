@@ -11,10 +11,10 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "PedroMBP"
-sudo scutil --set HostName "PedroMBP"
-sudo scutil --set LocalHostName "PedroMBP"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "PedroMBP"
+sudo scutil --set ComputerName "Pedro-MBP"
+sudo scutil --set HostName "Pedro-MBP"
+sudo scutil --set LocalHostName "Pedro-MBP"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Pedro-MBP"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2

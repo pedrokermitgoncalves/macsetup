@@ -101,6 +101,35 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# HOTJAR alias
+# log in to the Docker repository; it's used by other commands
+alias hj-login='aws ecr get-login-password | docker login --username AWS --password-stdin 727659271082.dkr.ecr.eu-west-1.amazonaws.com'
+# pull the latest images
+alias hj-pull='docker-compose pull'
+# remove ALL images
+alias hj-purge="docker images | grep insights | awk '{print \$3}' | xargs docker rmi -f"
+# remove dangling image versions
+alias hj-purge-old="docker system prune -f"
+# login, purge, pull
+alias hj-upgrade='hj-down && hj-pull && hj-up-integration && hj-purge-old'
+# stop running container
+alias hj-down='docker-compose down --volumes'
+# run the app
+alias hj-up='docker-compose up -d'
+# run the app connected to the integration backend
+alias hj-up-integration='docker-compose --profile integration up -d'
+# run the app connected to the integration backend (with --renew-anon-volumes)
+alias hj-up-integration-alt='docker-compose --profile integration up --renew-anon-volumes'
+# run webpack in development mode
+alias hj-dev='docker-compose exec --workdir "/var/www/insights/src" --env "WEBPACK_LIVE_RELOAD=1" insights-webapp bash -ic "npm run dev-server"'
+# run webpack in development mode (without --workdir)
+alias hj-dev-alt='docker-compose exec --env "WEBPACK_LIVE_RELOAD=1" insights-webapp bash -ic "npm run dev-server"'
+
+## Run insights with multiple layouts
+alias gt-insights="cd /Users/pedrogoncalves/Repos/Hotjar/insights-webapp"
+alias run-insights='hyperlayout insights'
+
+# NVM Init
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
