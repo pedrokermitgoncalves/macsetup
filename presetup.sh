@@ -18,6 +18,7 @@ brew install cask
 brew install git
 brew install node
 brew install nvm
+brew install pnpm
 brew install yarn
 brew install mas
 brew install z
@@ -28,6 +29,7 @@ command -v git
 command -v node
 command -v nvm
 command -v npm
+command -v pnpm
 command -v yarn
 command -v mas
 command -v brew
